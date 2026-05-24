@@ -19,9 +19,16 @@ how to set
 9. create app.blade.php
 10. edit web.php
 
+<!-- set model, controller, policy-->
+
+11. php artisan make:model Post -m
+12. php artisan make:controller AuthController
+13. php artisan make:controller PostController
+14. php artisan make:policy PostPolicy --model=Post
+
 ---
 
 how to run
 
-php artisan serve
+php artisan serve<br>
 npm run dev
